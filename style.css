@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Red Hat Display",sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Red Hat Display",sans-serif;
+    font-size: 16px;
+}
+.bgimg{
+    z-index: 1;
+    width: 100%;
+}
+.mainbox{
+    background-color: hsl(225, 100%, 98%);
+    width: 345px;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius:16px;
+    position: relative;
+    z-index: 1000;
+}
+.mainbox h1{
+    font-size: 26px;
+    font-weight: 900;
+    padding: 10px;
+}
+ p{
+    color: hsl(224, 23%, 55%);
+}
+.illustra{
+    width: 345px;
+    border-top-right-radius:15px;
+    border-top-left-radius: 15px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.price img{
+    margin: 0px 0px 0px 40px ;
+    border-color: black;
+}
+.price div{
+    margin-left: auto;
+    margin-right: auto;
+}
+.price a{
+    margin-right: 25px;
+    color: hsl(245, 75%, 52%);
+}
+.price a:hover{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+button{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:hsl(244, 44%, 49%);
+}
+.can{
+    margin-bottom: 20px;
+}
+.can:hover{
+    color: black;
+    cursor: pointer;
+}
+.bg{
+    background: no-repeat;
+    position: absolute;
+    background-size:cover;
+    z-index: 1;
+    top: 0;
+}
